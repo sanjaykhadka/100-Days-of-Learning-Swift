@@ -45,3 +45,63 @@ Here print is used to print the output to the bottom console of the playground.
 
 ![Playground Image](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/images/playground.png)
 
+## Strings & Integers
+Unline PHP, in swift every variable must have some specific data type, which is why swift is a type-safe language, ie we must assign the variable some specific data type. 
+
+Thus, string is a group of characters placed together and assigned to a variable. We must use double quotes ```" "``` to define a string type variable. 
+
+```swift 
+var color = "red"
+```
+
+> Output: red
+
+Likewise if we need a variable to store a whole number, we must create a variable like this, 
+
+```swift
+var age = 10
+```
+
+The variable that stores a numeric value (whole number) without decimals is called an integer type. 
+
+To store the large number, swift lets us use underscore ```_``` as thousand separators.
+
+```swift
+var population = 50_000_000
+```
+
+Because strings and integers are different types, we can't use string to hold integer value and vice versa. 
+
+## Multi-line Strings
+Standard swift strings created by using double quotes ```" "``` can't include line breaks and thus can't store multiple line string values. To create multi-line string, use three double quote marks,
+
+```swift
+var sentence = """
+Ram and
+Shyam are
+friends
+"""
+print(sentence)
+```
+
+> Output: 
+> Ram and
+> Shyam are
+> friends
+
+But if you don't want the actual line breaks ```\n``` in your string output (in the case where you need to store long sentences but using multi-line just to format your code in XCode editor), use ```\``` at the end of ech line. 
+
+```swift
+var sentence1 = """
+Ram and \
+Shyam are \
+friends
+"""
+print(sentence1)
+```
+
+> Output: Ram and Shyam are friends
+
+Now though you are using multi-line to format your line, those line breaks will actually not be included in your output.
+
+

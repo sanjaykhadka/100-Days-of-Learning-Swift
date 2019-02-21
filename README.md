@@ -17,14 +17,14 @@ And here comes the solution for you in the form of this course. But before you p
 
 ## COURSE OUTLINE
 ### Introduction to Swift
-1. Getting Started: Variables, simple datatypes & string interpolation
-  1. Variables
-  1. String & Integers
-  1. Multi-link Strings
-  1. Doubles & Booleans
-  1. String Interpolation
-  1. Constants
-  1. Type annotations
+* Getting Started: Variables, simple datatypes & string interpolation
+  * Variables
+  * String & Integers
+  * Multi-link Strings
+  * Doubles & Booleans
+  * String Interpolation
+  * Constants
+  * Type annotations
 
 1. Complex Data Types: Arrays, Dictionaries, Sets & Enums
   1. Arrays

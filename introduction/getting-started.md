@@ -1,4 +1,4 @@
-# Getting Started: 
+# Getting Started
 The secret to getting ahead is getting started. In this section we will get our hands dirty by learning about variables, constants and simple data types.
 
 ## Variables
@@ -21,7 +21,7 @@ This creates a new variable called ``str`` with the value ``Hello, playground``.
 As the name suggests, we can change the value of ``str`` because it is a variable.
 
 ```swift
-str = "Hello, world!"
+str = "Hello, world!"    > output: Hello, world!
 ```
 
 Now this time we don't need the keyword ```var```, because the variable has already been created and we are just changing its value. 

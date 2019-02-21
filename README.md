@@ -17,8 +17,8 @@ And here comes the solution for you in the form of this course. But before you p
 
 ## COURSE OUTLINE
 ### Introduction to Swift
-* Getting Started: Variables, simple datatypes & string interpolation
-  * Variables
+* [Getting Started: Variables, simple datatypes & string interpolation](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/getting-started.md#getting-started)
+  * [Variables](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/getting-started.md#variables)
   * String & Integers
   * Multi-link Strings
   * Doubles & Booleans

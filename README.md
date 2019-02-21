@@ -26,34 +26,34 @@ And here comes the solution for you in the form of this course. But before you p
   * Constants
   * Type annotations
 
-1. Complex Data Types: Arrays, Dictionaries, Sets & Enums
-  1. Arrays
-  1. Sets
-  1. Tuples
-  1. Arrays vs Sets vs Tuples
-  1. Dictionaries
-  1. Dictionary Default Values
-  1. Creating Empty Collections
-  1. Enumerations
-  1. Enum associated values
-  1. Enum raw values
+* Complex Data Types: Arrays, Dictionaries, Sets & Enums
+  * Arrays
+  * Sets
+  * Tuples
+  * Arrays vs Sets vs Tuples
+  * Dictionaries
+  * Dictionary Default Values
+  * Creating Empty Collections
+  * Enumerations
+  * Enum associated values
+  * Enum raw values
 
-1. Operators & Conditions
+* Operators & Conditions
 
-1. Loops
+* Loops
 
-1. Function, Parameters & Errors
+* Function, Parameters & Errors
 
-1. Closures
+* Closures
 
-1. Structs, properties & methods
+* Structs, properties & methods
 
-1. Access control, Static properties & Laziness
+* Access control, Static properties & Laziness
 
-1. Classes & Inheritance
+* Classes & Inheritance
 
-1. Protocols, Extensions, and Protocols & Extensions
+* Protocols, Extensions, and Protocols & Extensions
 
-1. Optionals, Unwrapping, & Typecasting
+* Optionals, Unwrapping, & Typecasting
 
 

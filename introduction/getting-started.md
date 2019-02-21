@@ -10,19 +10,21 @@ Now lets launch XCode app, and it will ask you what you want to do.
 
 In your playground area, you will see a line of code
 
-> var str = "Hello, playground"
-
 ```swift
 var str = "Hello, playground"
 ```
+
+> Output: Hello, playground
 
 This creates a new variable called ``str`` with the value ``Hello, playground``. You can see the output as ``Hello, playground`` in the right side. 
 
 As the name suggests, we can change the value of ``str`` because it is a variable.
 
 ```swift
-str = "Hello, world!"    > output: Hello, world!
+str = "Hello, world!"    
 ```
+
+> Output: Hello, world!
 
 Now this time we don't need the keyword ```var```, because the variable has already been created and we are just changing its value. 
 
@@ -30,7 +32,10 @@ Similarly if you want to create another variable, just follow the above code wit
 
 ```swift
 var name = "Sanjay Khadka"
+print(name)
 ```
 
-If you have set the playground to run automatically at the bottom side of the playground(also recommended), then you will see the output at the right side of the playground once the execution completes. 
+> Output: Sanjay Khadka
+
+If you have set the playground to run automatically at the bottom side of the playground(also recommended), then you will see the output at the right side of the playground once the execution completes. Here print is used to print the output to the bottom console of the playground.
 

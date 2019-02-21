@@ -38,6 +38,7 @@ print(name)
 > Output: Sanjay Khadka
 
 If you have set the playground to run automatically at the bottom side of the playground(also recommended), then you will see the output at the right side of the playground once the execution completes. 
+
 ![execute image](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/images/execute.gif)
 
 Here print is used to print the output to the bottom console of the playground.

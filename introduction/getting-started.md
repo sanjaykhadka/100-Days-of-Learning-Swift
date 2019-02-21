@@ -39,3 +39,5 @@ print(name)
 
 If you have set the playground to run automatically at the bottom side of the playground(also recommended), then you will see the output at the right side of the playground once the execution completes. Here print is used to print the output to the bottom console of the playground.
 
+![Playground Image](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/images/playground.png)
+

@@ -1,8 +1,6 @@
 # Complex Data Types
 
 ## Tuples
-
-## Collection Types
 Tuples can contain multiple different type of values in a single variable. We can use parenthesis ```()``` to define a tuple. 
 
 **Example**
@@ -79,6 +77,7 @@ Although tuple seems like an array, but it is different to an array in the follo
 * Unlike an array, tuples are fixed in sized, ie once created, we can't add or remove items from the tuple.
 * We can change the value of tuple but not the type of values ie the type-casting of tuple values are not allowed.
 
+## Collection Types
 ### Arrays
 Arrays are a collection of similar values. Lets say, while variable can only store a single value at a time, and there is no other way we can use a variable to store multiple values, we can use an array as a variable or a constant that can store multiple value at a time. 
 

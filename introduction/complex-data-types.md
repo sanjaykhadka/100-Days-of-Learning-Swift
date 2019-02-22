@@ -18,8 +18,8 @@ print(numbers)
 print(numbers)
 ```
 
-```
 **Output:**
+```
 [10, 20, 30, 40]
 [10, 20, 30, 40]
 ```

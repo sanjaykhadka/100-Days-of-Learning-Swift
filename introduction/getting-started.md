@@ -84,10 +84,12 @@ friends
 print(sentence)
 ```
 
-> Output: 
-> Ram and
-> Shyam are
-> friends
+```
+Output: 
+Ram and
+Shyam are
+friends
+```
 
 But if you don't want the actual line breaks ```\n``` in your string output (in the case where you need to store long sentences but using multi-line just to format your code in XCode editor), use ```\``` at the end of ech line. 
 

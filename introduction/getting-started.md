@@ -146,7 +146,8 @@ var str1 = "Ram is small and \(str)"
 print(str1)
 ```
 
-```Output:
+```
+Output:
 Ram is small and He is 5 years old
 ```
 

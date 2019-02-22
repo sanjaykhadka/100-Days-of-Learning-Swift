@@ -151,6 +151,35 @@ Output:
 Ram is small and He is 5 years old
 ```
 
+## Constants
+While variable can vary ie we can change its vaue, the alternative to variable is a constant. We can use keyworld ```let``` to define a constant. Constant is used to prevent the accidental replacement of any values. 
+
+In fact in swift we very often use constants rather than variables, unless we specifically want a variable, and whenever a variable is not replaced with another value, XCode suggests us to use ```let```.
+
+```swift
+let gender = "Male"
+```
+
+When you try to change the value of a constant XCode will give an error.
+
+## Type Inference and Type Annotations
+In swift whenever we define a variable or constant like below,
+
+```swift
+var name = "Hari"
+let age = 20
+```
+
+Swift automatically assigns the data type to each of variable and constant based on the type of value they are using. This ability of Swift to infer the datatype is called type inference. 
+But if we don't want Swift to decide what to use, and we want to define the type ourself, we can explicitly assign the type for our variables or constants. This is type annotation. It can be done like this:
+
+```swift 
+var name: String = "Ram"
+let age: Int = 16
+let happy: Bool = true
+let pi: Float = 3.1415
+var population: Double = 50000000000
+```
 
 
 

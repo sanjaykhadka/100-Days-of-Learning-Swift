@@ -19,12 +19,12 @@ And here comes the solution for you in the form of this course. But before you p
 ### Introduction to Swift
 * [Getting Started: Variables, simple datatypes & string interpolation](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/getting-started.md#getting-started)
   * [Variables](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/getting-started.md#variables)
-  * String & Integers
-  * Multi-link Strings
-  * Doubles & Booleans
-  * String Interpolation
-  * Constants
-  * Type annotations
+  * [String & Integers](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/getting-started.md#strings--integers)
+  * [Multi-line Strings](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/getting-started.md#multi-line-strings)
+  * [Doubles & Booleans](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/getting-started.md#double--booleans)
+  * [String Interpolation](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/getting-started.md#string-interpolation)
+  * [Constants](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/getting-started.md#constants)
+  * [Type annotations](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/getting-started.md#type-inference-and-type-annotations)
 
 * Complex Data Types: Arrays, Dictionaries, Sets & Enums
   * Arrays

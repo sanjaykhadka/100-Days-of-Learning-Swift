@@ -116,7 +116,10 @@ friends
 print(sentence1)
 ```
 
-> Output: Ram and Shyam are friends
+```
+Output: 
+Ram and Shyam are friends
+```
 
 Now though you are using multi-line to format your line, those line breaks will actually not be included in your output.
 

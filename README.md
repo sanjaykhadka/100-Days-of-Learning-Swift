@@ -26,34 +26,34 @@ And here comes the solution for you in the form of this course. But before you p
   * [Constants](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/getting-started.md#constants)
   * [Type annotations](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/getting-started.md#type-inference-and-type-annotations)
 
-* Complex Data Types: Arrays, Dictionaries, Sets & Enums
-  * Arrays
-  * Sets
-  * Tuples
-  * Arrays vs Sets vs Tuples
-  * Dictionaries
-  * Dictionary Default Values
-  * Creating Empty Collections
-  * Enumerations
-  * Enum associated values
-  * Enum raw values
+* [Complex Data Types: Arrays, Dictionaries, Sets & Enums](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/complex-data-types.md#complex-data-types)
+  * [Arrays](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/complex-data-types.md#arrays)
+  * [Sets]()
+  * [Tuples]()
+  * [Arrays vs Sets vs Tuples]()
+  * [Dictionaries]()
+  * [Dictionary Default Values]()
+  * [Creating Empty Collections]()
+  * [Enumerations]()
+  * [Enum associated values]()
+  * [Enum raw values]()
 
-* Operators & Conditions
+* [Operators & Conditions]()
 
-* Loops
+* [Loops]()
 
-* Function, Parameters & Errors
+* [Function, Parameters & Errors]()
 
-* Closures
+* [Closures]()
 
-* Structs, properties & methods
+* [Structs, properties & methods]()
 
-* Access control, Static properties & Laziness
+* [Access control, Static properties & Laziness]()
 
-* Classes & Inheritance
+* [Classes & Inheritance]()
 
-* Protocols, Extensions, and Protocols & Extensions
+* [Protocols, Extensions, and Protocols & Extensions]()
 
-* Optionals, Unwrapping, & Typecasting
+* [Optionals, Unwrapping, & Typecasting]()
 
 

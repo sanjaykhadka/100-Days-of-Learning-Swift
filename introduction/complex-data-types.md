@@ -62,3 +62,19 @@ blue
 ```
 
 ## Sets
+
+## Tuples
+
+## Arrays vs Sets vs Tuples
+
+## Dictionaries
+
+## Dictionary Default Values
+
+## Creating Empty Collections
+
+## Enumerations
+
+## Enum associated values
+
+## Enum raw values

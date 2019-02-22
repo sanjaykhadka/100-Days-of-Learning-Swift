@@ -27,11 +27,12 @@ And here comes the solution for you in the form of this course. But before you p
   * [Type annotations](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/getting-started.md#type-inference-and-type-annotations)
 
 * [Complex Data Types: Arrays, Dictionaries, Sets & Enums](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/complex-data-types.md#complex-data-types)
-  * [Arrays](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/complex-data-types.md#arrays)
-  * [Sets](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/complex-data-types.md#sets)
   * [Tuples](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/complex-data-types.md#tuples)
+  * [Collection Types]
+    * [Arrays](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/complex-data-types.md#arrays)
+    * [Sets](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/complex-data-types.md#sets)
+    * [Dictionaries](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/complex-data-types.md#dictionaries)
   * [Arrays vs Sets vs Tuples](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/complex-data-types.md#arrays-vs-sets-vs-tuples)
-  * [Dictionaries](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/complex-data-types.md#dictionaries)
   * [Dictionary Default Values](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/complex-data-types.md#dictionary-default-values)
   * [Creating Empty Collections](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/complex-data-types.md#creating-empty-collections)
   * [Enumerations](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/complex-data-types.md#enumerations)
@@ -43,6 +44,16 @@ And here comes the solution for you in the form of this course. But before you p
 * [Loops]()
 
 * [Function, Parameters & Errors]()
+  * Writing functions – test
+  * Accepting parameters – test
+  * Returning values – test
+  * Parameter labels – test
+  * Omitting parameter labels – test
+  * Default parameters – test
+  * Variadic functions – test
+  * Writing throwing functions – test
+  * Running throwing functions – test
+  * inout parameters – test
 
 * [Closures]()
 

@@ -14,7 +14,9 @@ In your playground area, you will see a line of code
 var str = "Hello, playground"
 ```
 
-> Output: Hello, playground
+```
+Output: Hello, playground
+```
 
 This creates a new variable called ``str`` with the value ``Hello, playground``. You can see the output as ``Hello, playground`` in the right side. 
 
@@ -24,7 +26,9 @@ As the name suggests, we can change the value of ``str`` because it is a variabl
 str = "Hello, world!"    
 ```
 
-> Output: Hello, world!
+```
+Output: Hello, world!
+```
 
 Now this time we don't need the keyword ```var```, because the variable has already been created and we are just changing its value. 
 
@@ -35,7 +39,9 @@ var name = "Sanjay Khadka"
 print(name)
 ```
 
-> Output: Sanjay Khadka
+```
+Output: Sanjay Khadka
+```
 
 If you have set the playground to run automatically at the bottom side of the playground(also recommended), then you will see the output at the right side of the playground once the execution completes. 
 
@@ -54,7 +60,9 @@ Thus, string is a group of characters placed together and assigned to a variable
 var color = "red"
 ```
 
-> Output: red
+```
+Output: red
+```
 
 Likewise if we need a variable to store a whole number, we must create a variable like this, 
 
@@ -68,6 +76,12 @@ To store the large number, swift lets us use underscore ```_``` as thousand sepa
 
 ```swift
 var population = 50_000_000
+print(population)
+```
+
+```
+Output:
+50000000
 ```
 
 Because strings and integers are different types, we can't use string to hold integer value and vice versa. 

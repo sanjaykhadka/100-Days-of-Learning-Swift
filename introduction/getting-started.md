@@ -123,4 +123,33 @@ Ram and Shyam are friends
 
 Now though you are using multi-line to format your line, those line breaks will actually not be included in your output.
 
+## Double & Booleans
+Integers can only store whole numbers. We need a double type to store a fractional value. So whenever we create a variable with a fractional value, Swift automatically uses a double type for that variable.
+
+```swift
+var pi = 3.1415
+```
+
+And to assign a conditional value like ```true``` or ```false```, we use boolean type.
+
+```swift
+var isHappy = true
+```
+
+## String Interpolation
+When we need to place a variable inside a string, we use a process called string interpolation. We use ```\()``` for string interpolation, inside a string.
+
+```swift
+var age = 5
+var str = "He is \(age) years old"
+var str1 = "Ram is small and \(str)"
+print(str1)
+```
+
+```Output:
+Ram is small and He is 5 years old
+```
+
+
+
 

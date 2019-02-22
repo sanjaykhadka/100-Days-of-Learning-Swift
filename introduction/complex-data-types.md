@@ -1,5 +1,85 @@
 # Complex Data Types
-## Arrays
+
+## Tuples
+
+## Collection Types
+Tuples can contain multiple different type of values in a single variable. We can use parenthesis ```()``` to define a tuple. 
+
+**Example**
+```swift
+var person = ("Sanjay", 15)
+print(person)
+print(person.0)
+print(person.1)
+```
+
+*Output:*
+```
+("Sanjay", 15)
+Sanjay
+15
+```
+
+Also, we can define tuple by associating name to each values ie by giving named index to the values.
+
+**Example**
+```swift
+var person1 = (name: "Ramu", age: 10)
+print(person1)
+print(person1.0)
+print(person1.name)
+print(person1.age)
+```
+
+*Output:*
+```
+(name: "Ramu", age: 10)
+Ramu
+Ramu
+10
+```
+
+We can decompose the tuple into separate constants or variables and access the values.
+
+**Example**
+```swift
+let httpError = (404, "Page Not Found")
+let (statusCode, statusMessage) = httpError
+print(httpError.0)
+print("The status code is \(statusCode)")
+print("The status message is \(statusMessage)")
+```
+
+*Output:*
+```
+404
+The status code is 404
+The status message is Page Not Found
+```
+
+Also, we can partly decompose the value of tuples and ignore others. We can use underscore ```_``` for that.
+
+**Example**
+```swift
+// to get only code
+let(code, _) = httpError
+print(code)
+// or to get message only
+let(_, message) = httpError
+print(message)
+```
+
+*Output*
+```
+404
+Page Not Found
+```
+
+Although tuple seems like an array, but it is different to an array in the following ways-
+* Unlike an array, tuples are fixed in sized, ie once created, we can't add or remove items from the tuple.
+* We can change the value of tuple but not the type of values ie the type-casting of tuple values are not allowed.
+
+### Arrays
 Arrays are a collection of similar values. Lets say, while variable can only store a single value at a time, and there is no other way we can use a variable to store multiple values, we can use an array as a variable or a constant that can store multiple value at a time. 
 
 **Example**
@@ -62,8 +142,6 @@ blue
 ```
 
 ## Sets
-
-## Tuples
 
 ## Arrays vs Sets vs Tuples
 

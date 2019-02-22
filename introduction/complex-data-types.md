@@ -2,6 +2,7 @@
 ## Arrays
 Arrays are a collection of similar values. Lets say, while variable can only store a single value at a time, and there is no other way we can use a variable to store multiple values, we can use an array as a variable or a constant that can store multiple value at a time. 
 
+**Example**
 ```swift
 let p1 = "Ram"
 let p2 = "Shyam"
@@ -18,7 +19,7 @@ print(numbers)
 print(numbers)
 ```
 
-**Output:**
+*Output:*
 ```
 [10, 20, 30, 40]
 [10, 20, 30, 40]

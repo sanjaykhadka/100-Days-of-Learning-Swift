@@ -1,6 +1,6 @@
 # Learn Programming in Swift
 
-***This is a work in progress...So stay tuned...**
+***This is a work in progress...So stay tuned for more fresh contents...**
 
 ![Image of Swift Logo](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/images/apple-swift-logo-200x200.png)
 

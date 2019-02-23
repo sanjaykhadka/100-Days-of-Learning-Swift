@@ -78,8 +78,13 @@ Although tuple seems like an array, but it is different to an array in the follo
 * We can change the value of tuple but not the type of values ie the type-casting of tuple values are not allowed.
 
 ## Collection Types: Arrays, Sets, Dictionaries
+Swift provides three primary collection types- arrays, sets and dictionaries for storing collection of values.
+* Arrays are ordered collections of values. 
+* Sets are unordered collections of unique values.
+* Dictionaries are unordered collections of key-value associations.
+
 ### Arrays
-Arrays are a collection of similar values. Lets say, while variable can only store a single value at a time, and there is no other way we can use a variable to store multiple values, we can use an array as a variable or a constant that can store multiple value at a time. 
+Arrays are ordered collection of values. 
 
 **Example**
 ```swift

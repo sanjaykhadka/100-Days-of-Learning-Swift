@@ -84,7 +84,7 @@ Swift provides three primary collection types- arrays, sets and dictionaries for
 * Dictionaries are unordered collections of key-value associations.
 
 ### Arrays
-Arrays are ordered collection of values. 
+Arrays are ordered collection of values. An array stores values of the same type in an ordered list with the index of the order always starting from 0.
 
 **Example**
 ```swift
@@ -109,7 +109,7 @@ print(numbers)
 [10, 20, 30, 40]
 ```
 
-In the code above, ```persons``` is an array of strings while ```numbers``` is an array of integers. 
+In the code above, ```persons``` is an array of string type while ```numbers``` is an array of integers. 
 
 We can also define an array explicitly, by using type annotations.
 
@@ -144,6 +144,39 @@ print(persons[2])
 red
 blue
 ```
+
+Normally array stores the same type of data, but if we want to store different type of data in an array, we can use ```Any``` type while creating an array.
+
+**Example**
+```swift 
+let arr:[Any] = ["Ram", 10, "Shyam"]
+print(arr[0])
+print(arr[1])
+```
+
+*Output*
+```
+Ram
+10
+```
+
+#### Array Type Shorthand Syntax
+In Swift, the syntax of array type can be written as
+```Array<Element>```,
+where ```Element``` is th. type of values
+Also the shorthand form can be written as 
+```[Element]```.
+The shorthand form is preferred in swift while referring to the type of an array.
+
+We can create an empty array like this:
+
+```swift
+var a = Array<String>() // creates an empty array a
+var b = [Int]() // creates an empty array b
+a.append("hello") // add item to array a
+b.append(10) // adds item to array b
+```
+
 
 ## Sets
 

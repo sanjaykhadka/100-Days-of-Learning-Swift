@@ -201,6 +201,21 @@ print(defaultDoubles)
 [0.0, 0.0, 0.0]
 ```
 
+### Adding two arrays
+We can form a third array by adding two arrays, only if the type of those array are same. For example, we cannot add two arrays if one is String, and another is an integer. The resulting array will automatically be of the same type.
+
+```swift
+let firstArray: [Int] = [10, 20]
+let secondArray: [Int] = [30, 40, 50]
+let thirdArray = firstArray + secondArray
+print(thirdArray)
+```
+
+```
+Output
+[10, 20, 30, 40, 50]
+```
+
 
 ## Sets
 

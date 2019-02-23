@@ -347,6 +347,49 @@ Removed item is 30
 The number exists on the set
 ```
 
+### Iterating through a set
+We can use ```for-in``` to iterate over the values of a set.
+
+```swift
+// insert new genre metal
+genres.insert("Metal")
+
+
+print("Normal loop though set")
+// access values in loop normally
+for value in genres {
+    print(value)
+}
+
+print("\nSorted Genres")
+// sorted genres
+for value in genres.sorted() {
+    print(value)
+}
+
+print("\nEnumerated genre loop")
+// Set also supports enumerated like array
+for (i, g) in genres.enumerated() {
+    print("\(i + 1). \(g)")
+}
+```
+
+```
+Normal loop though set
+Metal
+Rock
+Classical
+
+Sorted Genres
+Classical
+Metal
+Rock
+
+Enumerated genre loop
+1. Metal
+2. Rock
+3. Classical
+```
 
 
 ## Arrays vs Sets vs Tuples

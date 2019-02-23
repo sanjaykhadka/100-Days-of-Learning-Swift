@@ -246,9 +246,7 @@ print(cart.count)
 ```
 
 #### Iterate through an array
-We can use loops to iterate through an entire array values. For further information regarding loop, go to [loops](https://github.com/sanjaykhadka/learn-swift-coding/blob/master).
-
-Lets use ```for-in``` loop to play with our cart.
+We can use loops to iterate through an entire array values. Lets use ```for-in``` loop to play with our cart.
 
 ```swift
 for item in cart {
@@ -271,10 +269,47 @@ for (index, value) in cart.enumerated() {
 // 2. Mango
 // 3. Potato
 ```
-
+For further information regarding loop, see [loops](https://github.com/sanjaykhadka/learn-swift-coding/blob/master).
 
 
 ## Sets
+A set is a collection of values similar to array except they have 2 differences,
+* items are stored in random order, ie they don't have any fixed order.
+* all items in a set must be unique. No item can appear more than once in a set.
+
+The type of set is written as ```Set<Element>```, where ```Element``` is the type. And unline arrays, sets don't have equivalent shorthand form.
+
+```swift
+let colors = Set(arrayLiteral: "red", "green", "blue")
+let names = Set(["Ram", "Shyam", "Hari"])
+
+print(colors)
+print(colors[0]) // will give an error
+```
+
+Because sets are unordered, they don't have indices bound for each items unlike array, and we cannot use numerical positions unlike array to access the value of set.
+
+### Initializing an Empty Set and Set with an Array Literal
+
+```swift
+// Creating and Initializing an empty set
+var genres = Set<String>()
+genres.insert("Rock")
+genres.insert("Classical")
+
+// Set with an Array Literal
+var favGenres: Set<String> = ["Metal", "Melody"]
+
+print(genres)
+print(favGenres)
+
+// Output:
+// ["Classical", "Rock"]
+// ["Melody", "Metal"]
+```
+
+
+
 
 ## Arrays vs Sets vs Tuples
 

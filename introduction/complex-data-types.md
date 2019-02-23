@@ -323,18 +323,28 @@ print(numbers)
 
 if let removed = numbers.remove(30) {
     print("Removed item is \(removed)")
+} else {
+    print("Item doesnot exists, cannot remove")
 }
+
 print(numbers)
 print(numbers.count)
+
+if numbers.contains(40) {
+    print("The number exists on the set")
+} else {
+    print("The number doesnot exists")
+}
 ```
 
 ```
-[30, 10, 20]
-[30, 10, 20]
-[30, 20, 40]
+[10, 30, 20]
+[10, 30, 20]
+[40, 30, 20]
 Removed item is 30
 [40, 20]
 2
+The number exists on the set
 ```
 
 

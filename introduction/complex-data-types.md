@@ -361,13 +361,13 @@ for value in genres {
     print(value)
 }
 
-print("\nSorted Genres")
+print("\nSorted genres loop")
 // sorted genres
 for value in genres.sorted() {
     print(value)
 }
 
-print("\nEnumerated genre loop")
+print("\nEnumerated genres loop")
 // Set also supports enumerated like array
 for (i, g) in genres.enumerated() {
     print("\(i + 1). \(g)")
@@ -380,7 +380,7 @@ Metal
 Rock
 Classical
 
-Sorted Genres
+Sorted Genres loop
 Classical
 Metal
 Rock

@@ -28,7 +28,7 @@ And here comes the solution for you in the form of this course. But before you p
 
 * [Complex Data Types: Arrays, Dictionaries, Sets & Enums](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/complex-data-types.md#complex-data-types)
   * [Tuples](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/complex-data-types.md#tuples)
-  * [Collection Types]
+  * [Collection Types](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/complex-data-types.md#collection-types-arrays-sets-dictionaries)
     * [Arrays](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/complex-data-types.md#arrays)
     * [Sets](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/complex-data-types.md#sets)
     * [Dictionaries](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/complex-data-types.md#dictionaries)

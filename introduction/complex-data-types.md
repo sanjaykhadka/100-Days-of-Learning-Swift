@@ -254,12 +254,11 @@ Lets use ```for-in``` loop to play with our cart.
 for item in cart {
   print(item)
 }
-orange
-Mango
-Potato
 ```
 
 ```
+**Output:**
+*outout*
 orange
 Mango
 Potato

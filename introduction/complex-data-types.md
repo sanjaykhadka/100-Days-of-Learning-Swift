@@ -175,8 +175,12 @@ var a = Array<String>() // creates an empty array a
 var b = [Int]() // creates an empty array b
 a.append("hello") // adds item hello to array a
 b.append(10) // adds item 10 to array b
+print(a, b)
 ```
-
+*Output*
+```
+["hello"] [10]
+```
 
 ## Sets
 

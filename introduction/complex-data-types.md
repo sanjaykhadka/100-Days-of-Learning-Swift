@@ -325,8 +325,17 @@ if let removed = numbers.remove(30) {
     print("Removed item is \(removed)")
 }
 print(numbers)
+print(numbers.count)
 ```
 
+```
+[30, 10, 20]
+[30, 10, 20]
+[30, 20, 40]
+Removed item is 30
+[40, 20]
+2
+```
 
 
 

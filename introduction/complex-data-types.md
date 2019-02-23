@@ -3,8 +3,13 @@
 ## Tuples
 Tuples can contain multiple different type of values in a single variable. We can use parenthesis ```()``` to define a tuple. 
 
+Tuples aren't collections, but like collections, they also group multiple values. The values stored in a tuple don't need to be of the same type. In tuple we normally store values that form a sensible multipart.
+
 **Example**
 ```swift
+var currency = ("EUR", 0.81)
+var time = (Date(), "This is my message.")
+var email = ("Sanjay Khadka", "test@example.com")
 var person = ("Sanjay", 15)
 print(person)
 print(person.0)
@@ -18,7 +23,7 @@ Sanjay
 15
 ```
 
-Also, we can define tuple by associating name to each values ie by giving named index to the values.
+Also, we can define tuple by associating name to each values i.e. by giving named index to the values.
 
 **Example**
 ```swift
@@ -179,8 +184,23 @@ print(a, b)
 ```
 *Output*
 ```
-["hello"] [10]
+["hello"] 
+[10]
 ```
+
+### Default value
+```repeating``` and ```count``` can be used inside an Array initializer to form an array with default values.
+
+```swift
+var defaultDoubles = Array(repeating: 0.0, count: 3)
+print(defaultDoubles)
+```
+
+*Output*
+```
+[0.0, 0.0, 0.0]
+```
+
 
 ## Sets
 

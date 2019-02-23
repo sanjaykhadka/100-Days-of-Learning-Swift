@@ -390,9 +390,23 @@ Enumerated genre loop
 2. Rock
 3. Classical
 ```
+### Choosing between Arrays, Sets and Tuples
+Arrays, Sets and Tuples seem to be very similar, but they have distinct usage. To help you know which choose, here are some rules-
+* If a fixed and specific collection of related value is needed, then use a tuple.
 
+```swift
+let address = (city: "Kathmandu", street: "Aloknagar, Binayak Samjhana Marg", house: 333)
+```
+* If a collection of values must be unique, then we should use a set.
 
-## Arrays vs Sets vs Tuples
+```swift
+let cities = Set(["Kathmandu", "Bhaktapur", "Lalitpur"])
+```
+* If a collection of values can contain duplicate values, and should be ordered, then an array should be used.
+
+```swift
+let persons = ["Ram", "Shyam", "Hari", "Shyam", "Ram", "Sita"]
+```
 
 ## Dictionaries
 

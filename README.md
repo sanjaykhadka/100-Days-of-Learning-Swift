@@ -32,7 +32,6 @@ And here comes the solution for you in the form of this course. But before you p
     * [Arrays](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/complex-data-types.md#arrays)
     * [Sets](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/complex-data-types.md#sets)
     * [Dictionaries](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/complex-data-types.md#dictionaries)
-  * [Arrays vs Sets vs Tuples](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/complex-data-types.md#arrays-vs-sets-vs-tuples)
   * [Dictionary Default Values](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/complex-data-types.md#dictionary-default-values)
   * [Creating Empty Collections](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/complex-data-types.md#creating-empty-collections)
   * [Enumerations](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/complex-data-types.md#enumerations)

@@ -188,7 +188,7 @@ print(a, b)
 [10]
 ```
 
-### Default value
+#### Default value
 ```repeating``` and ```count``` can be used inside an Array initializer to form an array with default values.
 
 ```swift
@@ -201,7 +201,7 @@ print(defaultDoubles)
 [0.0, 0.0, 0.0]
 ```
 
-### Adding two arrays
+#### Adding two arrays
 We can form a third array by adding two arrays, only if the type of those array are same. For example, we cannot add two arrays if one is String, and another is an integer. The resulting array will automatically be of the same type.
 
 ```swift
@@ -216,6 +216,34 @@ Output
 [10, 20, 30, 40, 50]
 ```
 
+#### Modify an array
+We can use some methods as shown in example below to play with an array.
+
+**Example**
+```swift
+var cart = [String]() // creates an empty array
+cart.append("apple") // adds first item as apple
+cart.append("banana") // appends banana
+cart.insert("orange", at: 1) // inserts orange at index 1
+cart += ["grapes", "guava", "Eggs", "Tomato"] // appends these 4 items at the end
+print(cart)
+cart[2...5] = ["Mango", "Potato"] // removes index 2 to 5 items and replaces them with mango and potato
+print(cart)
+cart.remove(at: 0) // removes 0 index item
+print(cart)
+cart.removeLast()
+print(cart)
+print(cart.count)
+```
+
+*Output:*
+```
+["apple", "orange", "banana", "grapes", "guava", "Eggs", "Tomato"]
+["apple", "orange", "Mango", "Potato", "Tomato"]
+["orange", "Mango", "Potato", "Tomato"]
+["orange", "Mango", "Potato"]
+3
+```
 
 ## Sets
 

@@ -308,6 +308,25 @@ print(favGenres)
 // ["Melody", "Metal"]
 ```
 
+### Reading and Modifying a Set
+Sets have its methods to access and modify its values.
+
+```swift
+var numbers: Set<Int> = [10, 20]
+numbers.insert(30) // inserts 30 at the end of set
+print(numbers)
+numbers.insert(10) // since set only can store unique number, this will be ignored
+print(numbers)
+numbers.remove(10)
+numbers.insert(40)
+print(numbers)
+
+if let removed = numbers.remove(30) {
+    print("Removed item is \(removed)")
+}
+print(numbers)
+```
+
 
 
 

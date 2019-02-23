@@ -173,8 +173,8 @@ We can create an empty array like this:
 ```swift
 var a = Array<String>() // creates an empty array a
 var b = [Int]() // creates an empty array b
-a.append("hello") // add item to array a
-b.append(10) // adds item to array b
+a.append("hello") // adds item hello to array a
+b.append(10) // adds item 10 to array b
 ```
 
 

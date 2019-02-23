@@ -245,6 +245,29 @@ print(cart.count)
 3
 ```
 
+#### Iterate through an array
+We can use loops to iterate through an entire array values. For further information regarding loop, go to [loops](https://github.com/sanjaykhadka/learn-swift-coding/blob/master).
+
+Lets use ```for-in``` loop to play with our cart.
+
+```swift
+for item in cart {
+  print(item)
+}
+orange
+Mango
+Potato
+```
+
+```
+orange
+Mango
+Potato
+```
+
+
+
+
 ## Sets
 
 ## Arrays vs Sets vs Tuples

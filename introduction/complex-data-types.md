@@ -254,14 +254,10 @@ Lets use ```for-in``` loop to play with our cart.
 for item in cart {
   print(item)
 }
-```
-
-```
-**Output:**
-*outout*
-orange
-Mango
-Potato
+// Output:
+// orange
+// Mango
+// Potato
 ```
 
 

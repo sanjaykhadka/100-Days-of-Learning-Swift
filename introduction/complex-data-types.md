@@ -260,6 +260,17 @@ for item in cart {
 // Potato
 ```
 
+If we need index of each item as well, we can use ```enumerated()``` method.
+
+```swift
+for (index, value) in cart.enumerated() {
+    print("\(index + 1). \(value)")
+}
+
+// 1. orange
+// 2. Mango
+// 3. Potato
+```
 
 
 

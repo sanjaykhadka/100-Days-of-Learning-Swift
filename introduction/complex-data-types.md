@@ -451,6 +451,7 @@ animals = [
 dump(animals) // dump is similar to print, except that it display in pretty format
 animals["dog"] = "pet animal"
 animals["zebra"] = "wild animal"
+print(animals) // unreadable so we use dump
 dump(animals)
 ```
 ```
@@ -464,6 +465,8 @@ dump(animals)
   ▿ (2 elements)
     - key: "horse"
     - value: "pet animal"
+
+["cow": "farm animal", "sheep": "farm animal", "horse": "pet animal", "zebra": "wild animal", "dog": "pet animal"]
 
 ▿ 5 key/value pairs
   ▿ (2 elements)

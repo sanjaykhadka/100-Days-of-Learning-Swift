@@ -465,6 +465,31 @@ dump(animals)
 ```
 
 ### Dictionary Default Values
+We can access the value of dictionary using its ```key```. But if the key doesn't exists, Swift will send back ```nil```. While it is good to get nil, we can also provide a default value for the ```keys``` that is missing.
+
+```swift
+let addresses: [String: String] = [
+    "Ramu": "Kathmandu",
+    "Shyam": "Bhaktapur",
+    "Sita": "Lalitpur"
+]
+
+// access Ramu's address
+print(addresses["Ramu"])
+
+// But if we try to access, address of a person that is not in our dictionary
+print(addresses["Shiva"])
+
+// In such cases, we can provide a default value
+let na = addresses["Aaron", default: "Unknown"]
+print("The address of Aaron is \(na)")
+```
+
+```
+Optional("Kathmandu")
+nil
+The address of Aaron is Unknown
+```
 
 ## Creating Empty Collections
 

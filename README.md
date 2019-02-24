@@ -26,7 +26,7 @@ And here comes the solution for you in the form of this course. But before you p
   * [Constants](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/getting-started.md#constants)
   * [Type annotations](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/getting-started.md#type-inference-and-type-annotations)
 
-* [Complex Data Types: Arrays, Dictionaries, Sets & Enums](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/complex-data-types.md#complex-data-types)
+* [Complex Data Types: Tuples, Collections & Enums](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/complex-data-types.md#complex-data-types)
   * [Tuples](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/complex-data-types.md#tuples)
   * [Collection Types](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/complex-data-types.md#collection-types-arrays-sets-dictionaries)
     * [Arrays](https://github.com/sanjaykhadka/learn-swift-coding/blob/master/introduction/complex-data-types.md#arrays)

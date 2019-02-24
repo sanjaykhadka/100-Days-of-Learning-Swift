@@ -435,7 +435,10 @@ Dictionary is similar to array, except that you need to specify the type for bot
 var dict1: Dictionary<String, Int>
 var dict2: [String: Int]
 var dict3 = [
-    "one": 1, "two": 2, "three": 3]
+    "one": 1, 
+    "two": 2, 
+    "three": 3
+]
 ```
 
 ```swift

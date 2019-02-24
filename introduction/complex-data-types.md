@@ -5,7 +5,6 @@ Tuples can contain multiple different type of values in a single variable. We ca
 
 Tuples aren't collections, but like collections, they also group multiple values. The values stored in a tuple don't need to be of the same type. In tuple we normally store values that form a sensible multipart.
 
-**Example**
 ```swift
 var currency = ("EUR", 0.81)
 var time = (Date(), "This is my message.")
@@ -16,7 +15,6 @@ print(person.0)
 print(person.1)
 ```
 
-*Output:*
 ```
 ("Sanjay", 15)
 Sanjay
@@ -25,7 +23,6 @@ Sanjay
 
 Also, we can define tuple by associating name to each values i.e. by giving named index to the values.
 
-**Example**
 ```swift
 var person1 = (name: "Ramu", age: 10)
 print(person1)
@@ -34,7 +31,6 @@ print(person1.name)
 print(person1.age)
 ```
 
-*Output:*
 ```
 (name: "Ramu", age: 10)
 Ramu
@@ -44,7 +40,6 @@ Ramu
 
 We can decompose the tuple into separate constants or variables and access the values.
 
-**Example**
 ```swift
 let httpError = (404, "Page Not Found")
 let (statusCode, statusMessage) = httpError
@@ -53,7 +48,6 @@ print("The status code is \(statusCode)")
 print("The status message is \(statusMessage)")
 ```
 
-*Output:*
 ```
 404
 The status code is 404
@@ -62,7 +56,6 @@ The status message is Page Not Found
 
 Also, we can partly decompose the value of tuples and ignore others. We can use underscore ```_``` for that.
 
-**Example**
 ```swift
 // to get only code
 let(code, _) = httpError
@@ -72,7 +65,6 @@ let(_, message) = httpError
 print(message)
 ```
 
-*Output*
 ```
 404
 Page Not Found
@@ -91,7 +83,6 @@ Swift provides three primary collection types- arrays, sets and dictionaries for
 ### Arrays
 Arrays are ordered collection of values. An array stores values of the same type in an ordered list with the index of the order always starting from 0.
 
-**Example**
 ```swift
 let p1 = "Ram"
 let p2 = "Shyam"
@@ -108,7 +99,6 @@ print(numbers)
 print(numbers)
 ```
 
-*Output:*
 ```
 [10, 20, 30, 40]
 [10, 20, 30, 40]
@@ -118,7 +108,6 @@ In the code above, ```persons``` is an array of string type while ```numbers``` 
 
 We can also define an array explicitly, by using type annotations.
 
-**Example**
 ```swift
 let colors:[String] = ["red", "green", "blue"]
 let happiness:[Bool] = [true, false]
@@ -129,7 +118,6 @@ print(happiness)
 print(digits)
 ```
 
-*Output*
 ```
 ["red", "green", "blue"]
 [true, false]
@@ -138,13 +126,11 @@ print(digits)
 
 We can access the values from an array by using the index of each values. For example, an array index always starts from 0. So to read the first value of our ```persons``` array, we can write ```persons[0]```
 
-**Example**
 ```swift
 print(persons[0]) 
 print(persons[2])
 ```
 
-*Output:*
 ```
 red
 blue
@@ -152,14 +138,12 @@ blue
 
 Normally array stores the same type of data, but if we want to store different type of data in an array, we can use ```Any``` type while creating an array.
 
-**Example**
 ```swift 
 let arr:[Any] = ["Ram", 10, "Shyam"]
 print(arr[0])
 print(arr[1])
 ```
 
-*Output*
 ```
 Ram
 10
@@ -182,7 +166,7 @@ a.append("hello") // adds item hello to array a
 b.append(10) // adds item 10 to array b
 print(a, b)
 ```
-*Output*
+
 ```
 ["hello"] 
 [10]
@@ -196,7 +180,6 @@ var defaultDoubles = Array(repeating: 0.0, count: 3)
 print(defaultDoubles)
 ```
 
-*Output*
 ```
 [0.0, 0.0, 0.0]
 ```
@@ -212,14 +195,12 @@ print(thirdArray)
 ```
 
 ```
-Output
 [10, 20, 30, 40, 50]
 ```
 
 #### Modify an array
 We can use some methods as shown in example below to play with an array.
 
-**Example**
 ```swift
 var cart = [String]() // creates an empty array
 cart.append("apple") // adds first item as apple
@@ -236,7 +217,6 @@ print(cart)
 print(cart.count)
 ```
 
-*Output:*
 ```
 ["apple", "orange", "banana", "grapes", "guava", "Eggs", "Tomato"]
 ["apple", "orange", "Mango", "Potato", "Tomato"]
@@ -252,7 +232,7 @@ We can use loops to iterate through an entire array values. Lets use ```for-in``
 for item in cart {
   print(item)
 }
-// Output:
+
 // orange
 // Mango
 // Potato
@@ -303,7 +283,6 @@ var favGenres: Set<String> = ["Metal", "Melody"]
 print(genres)
 print(favGenres)
 
-// Output:
 // ["Classical", "Rock"]
 // ["Melody", "Metal"]
 ```
@@ -353,7 +332,6 @@ We can use ```for-in``` to iterate over the values of a set.
 ```swift
 // insert new genre metal
 genres.insert("Metal")
-
 
 print("Normal loop though set")
 // access values in loop normally
